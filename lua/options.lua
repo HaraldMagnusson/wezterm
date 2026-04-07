@@ -15,7 +15,7 @@ function module.apply_to_config(config)
 	config.text_background_opacity = 0.8
 
 	config.hide_tab_bar_if_only_one_tab = true
-	config.window_decorations = "RESIZE"
+	config.window_decorations = "TITLE | RESIZE"
 	config.window_padding = {
 		top = 10,
 		bottom = 10,
